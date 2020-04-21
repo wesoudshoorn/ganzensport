@@ -2,17 +2,15 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+import Ganzensport from "../images/ganzensport.svg"
+
 const Header = ({ siteTitle }) => (
-  <header className="bg-green-600 p-6 text-4xl font-bold text-center">
-    <h1 style={{ margin: 0 }}>
+  <header className="text-center flex items-center justify-center">
+    <h1>
       <Link
         to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-        }}
       >
-        {siteTitle}
+        <img src={Ganzensport} alt={siteTitle} className="h-32" />
       </Link>
     </h1>
   </header>

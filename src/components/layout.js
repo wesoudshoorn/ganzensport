@@ -24,8 +24,9 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="font-barlow antialiased bg-green-100">
-      <main className="p-10">{children}</main>
+    <div className="font-barlow antialiased bg-gray-900 min-h-vh">
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <main className="max-w-6xl mx-auto p-10">{children}</main>
       <footer>
         © {new Date().getFullYear()}, Wes Oudshoorn
       </footer>
