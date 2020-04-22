@@ -17,7 +17,6 @@ export default ({
     setExercise(title)
   }
 
-  console.log(exercises[0].videoSrc)
   return (
     <Layout>
       <SEO title="Home" />
