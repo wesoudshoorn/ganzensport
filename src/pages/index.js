@@ -47,7 +47,7 @@ const IndexPage = () => (
               <span
                 role="img"
                 aria-label=""
-                sclassName="group-hover:scale-150 transition duration-200 ease-in-out transform"
+                className="group-hover:scale-150 transition duration-200 ease-in-out transform"
               >
                 🎾
               </span>
@@ -62,7 +62,7 @@ const IndexPage = () => (
               <span
                 role="img"
                 aria-label=""
-                sclassName="group-hover:scale-150 transition duration-200 ease-in-out transform"
+                className="group-hover:scale-150 transition duration-200 ease-in-out transform"
               >
                 ⚽️
               </span>
@@ -77,7 +77,7 @@ const IndexPage = () => (
               <span
                 role="img"
                 aria-label=""
-                sclassName="group-hover:scale-150 transition duration-200 ease-in-out transform"
+                className="group-hover:scale-150 transition duration-200 ease-in-out transform"
               >
                 🏋️‍♀️
               </span>
@@ -92,7 +92,7 @@ const IndexPage = () => (
               <span
                 role="img"
                 aria-label=""
-                sclassName="group-hover:scale-150 transition duration-200 ease-in-out transform"
+                className="group-hover:scale-150 transition duration-200 ease-in-out transform"
               >
                 🏐
               </span>
@@ -107,7 +107,7 @@ const IndexPage = () => (
               <span
                 role="img"
                 aria-label=""
-                sclassName="group-hover:scale-150 transition duration-200 ease-in-out transform"
+                className="group-hover:scale-150 transition duration-200 ease-in-out transform"
               >
                 🥊
               </span>
