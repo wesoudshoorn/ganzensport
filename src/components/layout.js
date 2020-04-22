@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
     <div className="font-barlow antialiased bg-gray-900 min-h-vh">
       <Header siteTitle={data.site.siteMetadata.title} />
       <main className="max-w-6xl mx-auto p-10">{children}</main>
-      <footer>© {new Date().getFullYear()}, Wes Oudshoorn ✨</footer>
+      <footer className="max-w-6xl mx-auto p-10 text-white opacity-25">
+        <span>© {new Date().getFullYear()}, Wes Oudshoorn</span>
+      </footer>
     </div>
   )
 }
