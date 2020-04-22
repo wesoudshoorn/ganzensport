@@ -6,13 +6,15 @@ import SEO from "../components/seo"
 
 export default ({
   data: {
-    pagesDataYaml: { title, exercises },
+    pagesDataYaml: { exercises },
   },
 }) => {
-  const [videoSrc, setVideoSrc] = useState(exercises[0].videoSrc)
+  const [videoSrc, setVideoSrc] = useState(exercises[0]?.videoSrc)
+  const [exercise, setExercise] = useState(exercises[0]?.title)
 
-  const handleSetVideoSrc = src => {
+  const handleSetVideoSrc = (title, src) => {
     setVideoSrc(src)
+    setExercise(title)
   }
 
   console.log(exercises[0].videoSrc)
@@ -21,13 +23,15 @@ export default ({
       <SEO title="Home" />
       <div className="grid grid-cols-3 gap-8 text-white ">
         <div>
-          <h1 className="font-bold text-5xl mb-4 leading-tight">{`${title} Oefeningen`}</h1>
+          <h1 className="font-bold text-5xl mb-4 leading-tight">Oefeningen</h1>
           <ol className="text-xl max-h-screen overflow-auto">
             {exercises.map((item, index) => {
               return (
                 <li key={item + index}>
                   <button
-                    onClick={() => handleSetVideoSrc(item?.videoSrc)}
+                    onClick={() =>
+                      handleSetVideoSrc(item?.title, item?.videoSrc)
+                    }
                     className="flex items-center border-b-2 border-gray-600 py-3"
                   >
                     <span className="w-12">{`${index + 1}.`}</span>{" "}
@@ -39,7 +43,7 @@ export default ({
           </ol>
         </div>
         <div className="col-span-2">
-          <h1 className="font-bold text-5xl mb-4 leading-tight">Oefening 21</h1>
+          <h1 className="font-bold text-5xl mb-4 leading-tight">{exercise}</h1>
           <iframe
             title="Video Player"
             width="704"
@@ -56,7 +60,7 @@ export default ({
 }
 
 export const query = graphql`
-  query GET_ACTIVITY_PAGE($slug: String!) {
+  query GET_ACTIVITY($slug: String!) {
     pagesDataYaml(fields: { slug: { eq: $slug } }) {
       title
       exercises {
