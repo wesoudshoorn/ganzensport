@@ -27,15 +27,15 @@ export default ({
             {exercises.map((item, index) => {
               return (
                 <li key={item + index}>
-                  <button
+                  <a
                     onClick={() =>
                       handleSetVideoSrc(item?.title, item?.videoSrc)
                     }
-                    className="flex items-center border-b-2 border-gray-600 py-3"
+                    className="flex w-full items-baseline border-b-2 border-gray-600 py-3 cursor-pointer"
                   >
                     <span className="w-12">{`${index + 1}.`}</span>{" "}
-                    <span>{item?.title}</span>
-                  </button>
+                    <span className="">{item?.title}</span>
+                  </a>
                 </li>
               )
             })}
