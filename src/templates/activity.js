@@ -22,10 +22,10 @@ export default ({
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="flex text-white">
-        <div className="p-10 bg-blue-800">
-          <h1 className="font-bold text-5xl mb-4 leading-tight">Oefeningen</h1>
-          <ol className="grid grid-cols-12 gap-4">
+      <div className="sm:flex flex-wrap text-white">
+        <div className="p-6 lg:p-10 bg-blue-800 sm:w-1/2 lg:w-1/3">
+          <h1 className="font-bold text-2xl mb-4 leading-tight">Oefeningen</h1>
+          <ol className="grid grid-cols-7 gap-2">
             {exercises.map((item, index) => {
               return (
                 <li key={item + index}>
@@ -33,7 +33,7 @@ export default ({
                     onClick={() =>
                       handleSetVideoSrc(item?.title, item?.videoSrc)
                     }
-                    className="cursor-pointer w-12 h-12 flex items-center justify-center text-xl bg-blue-900 rounded-lg hover:bg-orange-500"
+                    className="cursor-pointer flex items-center justify-center bg-blue-900 rounded-lg hover:bg-orange-500"
                   >
                     <span>{`${index + 1}`}</span>{" "}
                     <span className="hidden">{item?.title}</span>
@@ -43,8 +43,8 @@ export default ({
             })}
           </ol>
         </div>
-        <div className="flex-1 p-10">
-          <h1 className="font-bold text-5xl mb-4 leading-tight">{exercise}</h1>
+        <div className="p-6 lg:p-10 sm:w-1/2 lg:w-2/3">
+          <h1 className="font-bold text-2xl mb-4 leading-tight">{exercise}</h1>
           <YouTube id={videoSrc} />
         </div>
       </div>

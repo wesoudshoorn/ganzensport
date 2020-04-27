@@ -5,15 +5,20 @@ import React from "react"
 import Ganzensport from "../images/g.svg"
 
 const Header = ({ siteTitle }) => (
-  <header className="flex items-center justify-center p-8 bg-orange-600 ">
+  <header className="flex items-center justify-between py-4 bg-orange-600 px-6 lg:px-10 text-white">
     <h1>
       <Link
         to="/"
-        className="w-16 h-16 block rounded-lg bg-orange-800 flex items-center justify-center"
+        className="w-12 h-12 block rounded-lg bg-orange-800 flex items-center justify-center"
       >
-        <img src={Ganzensport} alt={siteTitle} className="h-10" />
+        <img src={Ganzensport} alt={siteTitle} className="h-8" />
       </Link>
     </h1>
+    <ul className="flex">
+      <li><Link to="/" className="p-4">Hoe werkt het?</Link></li>
+      <li><Link to="/" className="p-4">Draag bij</Link></li>
+      <li><Link to="/" className="p-4">Contact</Link></li>
+    </ul>
   </header>
 )
 
