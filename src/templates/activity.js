@@ -4,6 +4,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import YouTube from 'react-youtube-embed'
+
 export default ({
   data: {
     pagesDataYaml: { exercises },
@@ -20,10 +22,10 @@ export default ({
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="grid grid-cols-3 gap-8 text-white ">
-        <div>
+      <div className="flex text-white">
+        <div className="p-10 bg-blue-800">
           <h1 className="font-bold text-5xl mb-4 leading-tight">Oefeningen</h1>
-          <ol className="text-xl max-h-screen overflow-auto">
+          <ol className="grid grid-cols-12 gap-4">
             {exercises.map((item, index) => {
               return (
                 <li key={item + index}>
@@ -31,27 +33,19 @@ export default ({
                     onClick={() =>
                       handleSetVideoSrc(item?.title, item?.videoSrc)
                     }
-                    className="flex w-full items-baseline border-b-2 border-gray-600 py-3 cursor-pointer"
+                    className="cursor-pointer w-12 h-12 flex items-center justify-center text-xl bg-blue-900 rounded-lg hover:bg-orange-500"
                   >
-                    <span className="w-12">{`${index + 1}.`}</span>{" "}
-                    <span className="">{item?.title}</span>
+                    <span>{`${index + 1}`}</span>{" "}
+                    <span className="hidden">{item?.title}</span>
                   </a>
                 </li>
               )
             })}
           </ol>
         </div>
-        <div className="col-span-2">
+        <div className="flex-1 p-10">
           <h1 className="font-bold text-5xl mb-4 leading-tight">{exercise}</h1>
-          <iframe
-            title="Video Player"
-            width="704"
-            height="396"
-            src={videoSrc}
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <YouTube id={videoSrc} />
         </div>
       </div>
     </Layout>
