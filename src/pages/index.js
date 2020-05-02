@@ -14,9 +14,13 @@ const IndexPage = ({ data: { allPagesDataYaml } }) => (
       </div>
       <div>
         <h2 className="font-bold text-3xl mb-2">Print het bordspel uit</h2>
-        <p className="text-gray-300">
-          Download de PDF en print het bordspel uit! Je kunt ook de zwart-witversie uitprinten als je niet teveel inkt wil verspillen.
+        <p className="text-gray-300 mb-2">
+          Download de PDF en print het uit!
         </p>
+        <ul className="list-outside list-disc ml-5">
+          <li><a href="/ganzensport-tennis.pdf" className="underline">PDF Tennisversie (13.1Mb)</a></li>
+          <li><a href="/ganzensport-zw.pdf" className="underline">PDF Zwart-wit (463Kb)</a></li>
+        </ul>
       </div>
       <div>
         <h2 className="font-bold text-3xl mb-2">Dobbel, video, sport!</h2>
@@ -31,7 +35,7 @@ const IndexPage = ({ data: { allPagesDataYaml } }) => (
           return (
             <Link
               to={`/${node?.title.toLowerCase()}`}
-              className="group flex p-6 text-2xl bg-gray-900 text-white rounded-lg font-bold justify-between items-center"
+              className="group flex py-4 px-6 text-2xl bg-gray-900 text-white rounded-lg font-bold justify-between items-center"
               key={index}
             >
               Speel nu {node?.title} ganzensport!

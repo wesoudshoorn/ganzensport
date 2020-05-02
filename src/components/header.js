@@ -15,9 +15,7 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
     <ul className="flex">
-      <li><Link to="/" className="p-4">Hoe werkt het?</Link></li>
-      <li><Link to="/" className="p-4">Draag bij</Link></li>
-      <li><Link to="/" className="p-4">Contact</Link></li>
+      <li><a href="mailto:wes@overlab.com" className="p-4">Contact</a></li>
     </ul>
   </header>
 )
