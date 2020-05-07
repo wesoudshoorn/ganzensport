@@ -2,311 +2,373 @@
   title: Tennis
   emoji: 🎾
   exercises:
-    - item:
+    - item: 1
+      description:
       title: 60 sec ball met voet aantikken li-re
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/VVbjXFGEBpY
+      videoSrc: https://youtu.be/watch?v=VVbjXFGEBpY
 
-    - item:
+    - item: 2
+      description:
       title: 60 sec bal heen & weer tussen voeten
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://youtu.be/watch?v=Fjvx-YVg8VE
 
-    - item:
+    - item: 3
+      description:
       title: 20x bal hoog houden re arm
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/IhVc4tAZGf0
+      videoSrc: https://youtu.be/watch?v=IhVc4tAZGf0
 
-    - item:
+    - item: 4
+      description:
       title: 20x bal hoog houden li arm
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/3zaXmZmLwgg
+      videoSrc: https://youtu.be/watch?v=3zaXmZmLwgg
 
-    - item:
+    - item: 5
+      description:
       title: 10x bal stuiteren re arm
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/pz3T5ZetQ7Y
+      videoSrc: https://youtu.be/watch?v=pz3T5ZetQ7Y
 
-    - item:
+    - item: 6
+      description:
       title: Rol dobbelsteen opnieuw!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/SXSavNCiV5A
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
-    - item:
+    - item: 7
+      description:
       title: 10x bal stuiteren li arm
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/SXSavNCiV5A
+      videoSrc: https://youtu.be/RPvX4E_IqwU
 
-    - item:
+    - item: 8
+      description:
       title: 10x hooghouden re arm blad wisselt
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/BSAyGJ8UOqw
+      videoSrc: https://youtu.be/watch?v=BSAyGJ8UOqw
 
-    - item:
+    - item: 9
+      description:
       title: Één stap terug!
       type: unlucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=SXSavNCiV5A
 
-    - item:
+    - item: 10
+      description:
       title: 10x hooghouden li arm blad wisselt
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/K_2DYiTI7EA
+      videoSrc: https://youtu.be/watch?v=K_2DYiTI7EA
 
-    - item:
-      title: iemand een uitdaging!
+    - item: 11
+      description:
+      title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=C0UrgLM_snM
 
-    - item:
+    - item: 12
+      description:
       title: Racket tegen bal buitenkant voet omhoog stuiter vang
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/XqnNF4IS0Xo
+      videoSrc: https://youtu.be/watch?v=XqnNF4IS0Xo
 
-    - item:
+    - item: 13
+      description:
       title: Racket tegen bal binenkant voet omhoog stuiter vang
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/0zoYGbdAlRQ
+      videoSrc: https://youtu.be/watch?v=0zoYGbdAlRQ
 
-    - item:
+    - item: 14
+      description:
       title: 3 stappen vooruit!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/jLvlUW9CJD4
+      videoSrc: https://youtu.be/watch?v=jLvlUW9CJD4
 
-    - item:
+    - item: 15
+      description:
       title: 60sec jumping jacks
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/XqnNF4IS0Xo
+      videoSrc: https://youtu.be/bz7QZ1b7ULM
 
-    - item:
+    - item: 16
+      description:
       title: Plank positie 10x hooghouden ‘verkeerde’ arm	power
-      videoSrc: https://www.youtube-nocookie.com/embed/isZvVtB7E_g
+      videoSrc: https://youtu.be/watch?v=isZvVtB7E_g
 
-    - item:
+    - item: 17
+      description:
       title: Stuiter bal & leg ‘dood’ op racket
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/G2jfhIAYKeM
+      videoSrc: https://youtu.be/watch?v=G2jfhIAYKeM
 
-    - item:
+    - item: 18
+      description:
       title: Door naar lucky 22!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/3FLwBMkaT8o
+      videoSrc: https://youtu.be/watch?v=3FLwBMkaT8o
 
-    - item:
+    - item: 19
+      description:
       title: Bal op grond met racket omhoog stuiteren & vang
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/KGUlWghMRgM
+      videoSrc: https://youtu.be/watch?v=KGUlWghMRgM
 
-    - item:
+    - item: 20
+      description:
       title: Bal 3 rondjes langs rand racket rollen
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/38RaxWRpV6E
+      videoSrc: https://youtu.be/watch?v=38RaxWRpV6E
 
-    - item:
+    - item: 21
+      description:
       title: 30sec bal op onderkant racket
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/3yUVUa0rXAU
+      videoSrc: https://youtu.be/watch?v=3yUVUa0rXAU
 
-    - item:
+    - item: 22
+      description:
       title: Rol dobbelsteen, even is 22 vooruit, oneven 22 achteruit!	lucky or
       type: unlucky?!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://youtu.be/watch?v=Fjvx-YVg8VE
 
-    - item:
+    - item: 23
+      description:
       title: 4x bal hooghouden zijkant racket
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/4eEL5IGD5dU
+      videoSrc: https://youtu.be/watch?v=4eEL5IGD5dU
 
-    - item:
+    - item: 24
+      description:
       title: 4x hooghouden onderkant racket
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/vEQekd7Qy_o
+      videoSrc: https://youtu.be/watch?v=vEQekd7Qy_o
 
-    - item:
+    - item: 25
+      description:
       title: 60 sec zijwaarts over racket springen
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/xsEuX7hy4Mw
+      videoSrc: https://youtu.be/watch?v=xsEuX7hy4Mw
 
-    - item:
+    - item: 26
+      description:
       title: Bal op grond slaan draai rondje & vang bal
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/FNAORWgpdiE
+      videoSrc: https://youtu.be/watch?v=FNAORWgpdiE
 
-    - item:
+    - item: 27
+      description:
       title: 4 stappen vooruit!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/w9U8l4zfqAI
+      videoSrc: https://youtu.be/watch?v=w9U8l4zfqAI
 
-    - item:
+    - item: 28
+      description:
       title: 20x bal stuiteren op li been
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/i4cfx7_wE4Y
+      videoSrc: https://youtu.be/watch?v=i4cfx7_wE4Y
 
-    - item:
+    - item: 29
+      description:
       title: 20x bal stuiteren op li been
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/YQ96vOCwcdQ
+      videoSrc: https://youtu.be/watch?v=YQ96vOCwcdQ
 
-    - item:
+    - item: 30
+      description:
       title: 8x hooghouden racket door achterkant benen
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/OTR8BVRL1fI
+      videoSrc: https://youtu.be/watch?v=OTR8BVRL1fI
 
-    - item:
-      title: iemand een uitdaging!
+    - item: 31
+      description:
+      title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=_FWK1Sp9J-s
 
-    - item:
+    - item: 32
+      description:
       title: Rol dobbelsteen nog een keer!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
-    - item:
+    - item: 33
+      description:
       title: Bal op racket staan-zit-lig-zit-staan	power
-      videoSrc: https://www.youtube-nocookie.com/embed/7saJN4foQIs
+      videoSrc: https://youtu.be/watch?v=7saJN4foQIs
 
-    - item:
+    - item: 34
+      description:
       title: 60sec knieheffen
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/pXFWDVjmr00
+      videoSrc: https://youtu.be/watch?v=pXFWDVjmr00
 
-    - item:
+    - item: 35
+      description:
       title: Hooghouden spin & slice
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/aMIFiWAA4Ag
+      videoSrc: https://youtu.be/watch?v=aMIFiWAA4Ag
 
-    - item:
+    - item: 36
+      description:
       title: 3 stappen vooruit!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/t9htiVrALcI
+      videoSrc: https://youtu.be/watch?v=t9htiVrALcI
 
-    - item:
+    - item: 37
+      description:
       title: Bal op racket & drinken inschenken
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/rHnCeaggQMo
+      videoSrc: https://youtu.be/watch?v=rHnCeaggQMo
 
-    - item:
+    - item: 38
+      description:
       title: Racket salto maken & opvangen
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/gpCQa1lhZoQ
+      videoSrc: https://youtu.be/watch?v=gpCQa1lhZoQ
 
-    - item:
+    - item: 39
+      description:
       title: 3x racket draaien om vinger & vast pakken
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/DMsZyaup4Jo
+      videoSrc: https://youtu.be/watch?v=DMsZyaup4Jo
 
-    - item:
-      title: iemand een uitdaging!
+    - item: 40
+      description:
+      title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=mWJfYkA5Jn4
 
-    - item:
+    - item: 41
+      description:
       title: 2x bal op racket achtje tussen benen door
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/HG9Q048eDvc
+      videoSrc: https://www.youtube.com/watch?v=qX-RpkDimpg
 
-    - item:
+    - item: 42
+      description:
       title: 8 stappen terug!
       type: unlucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/Oj42OmNDp4Q
+      videoSrc: https://youtu.be/watch?v=Oj42OmNDp4Q
 
-    - item:
+    - item: 43
+      description:
       title: Mik bal in mand op 2 meter
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/Xm_GVl12bCc
+      videoSrc: https://youtu.be/watch?v=Xm_GVl12bCc
 
-    - item:
+    - item: 44
+      description:
       title: 10x fh volley tegen muur
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/rdu-ncovdyk
+      videoSrc: https://youtu.be/watch?v=rdu-ncovdyk
 
-    - item:
+    - item: 45
+      description:
       title: Terug naar 18!
       type: unlucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/KVsd5eY4_tw
+      videoSrc: https://youtu.be/watch?v=KVsd5eY4_tw
 
-    - item:
+    - item: 46
+      description:
       title: 30 sec sprinten op de plaats
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/sqq-R8eKwdg
+      videoSrc: https://youtu.be/watch?v=sqq-R8eKwdg
 
-    - item:
+    - item: 47
+      description:
       title: 10x fh-bh volley om & om
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/6Cee6d0fMb8
+      videoSrc: https://youtu.be/watch?v=6Cee6d0fMb8
 
-    - item:
+    - item: 48
+      description:
       title: 1 beurt overslaan!
       type: unlucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://youtu.be/watch?v=Fjvx-YVg8VE
 
-    - item:
+    - item: 49
+      description:
       title: 45sec bal stuiter ‘verkeerde arm’& knieheffen
       type: conditie
-      videoSrc: https://www.youtube-nocookie.com/embed/bq6_MVMJ6wk
+      videoSrc: https://youtu.be/watch?v=bq6_MVMJ6wk
 
 
-    - item:
+    - item: 50
+      description:
       title: Door naar 61!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/VKvBP9Od1Gw
+      videoSrc: https://youtu.be/watch?v=VKvBP9Od1Gw
 
-    - item:
+    - item: 51
+      description:
       title: Bal omhoog slaan-koppen-vangen
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/VcrDrzaqx0c
+      videoSrc: https://youtu.be/watch?v=VcrDrzaqx0c
 
-    - item:
-      title: iemand een uitdaging!
+    - item: 52
+      description:
+      title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=g5sX2m0JhOE
 
-    - item:
+    - item: 53
+      description:
       title: Stuiter bal op grond - balanceer op wreef hand & vang
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/hLxa1xGj4HM
+      videoSrc: https://youtu.be/watch?v=hLxa1xGj4HM
 
-    - item:
+    - item: 54
+      description:
       title: Bal stuiteren re arm racket onder knie en omhoog
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/k_aNdjC4uU0
+      videoSrc: https://youtu.be/watch?v=k_aNdjC4uU0
 
-    - item:
+    - item: 55
+      description:
       title: Bal stuiteren li arm racket onder knie en omhoog
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/aQJsOEcys6Q
+      videoSrc: https://youtu.be/watch?v=aQJsOEcys6Q
 
-    - item:
+    - item: 56
+      description:
       title: 10 x hooghouden met slice
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/19MyywEFmXw
+      videoSrc: https://youtu.be/watch?v=19MyywEFmXw
 
-    - item:
+    - item: 57
+      description:
       title: Rol dobbelsteen nogmaals!
       type: lucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
-    - item:
+    - item: 58
+      description:
       title: 1 beurt overslaan!
       type: unlucky!
-      videoSrc: https://www.youtube-nocookie.com/embed/EQrZY0WafWw
+      videoSrc: https://youtu.be/watch?v=EQrZY0WafWw
 
-    - item:
+    - item: 59
+      description:
       title: 4x bal omlaag stuiteren zijkant racket
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/RNNjNUDoJe0
+      videoSrc: https://youtu.be/watch?v=RNNjNUDoJe0
 
-    - item:
+    - item: 60
+      description:
       title: 10x hooghouden met spin
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/kysY-4KjYwY
+      videoSrc: https://youtu.be/watch?v=kysY-4KjYwY
 
-    - item:
+    - item: 61
+      description:
       title: Drie keer stuiter zijkant racket
       type: skill
-      videoSrc: https://www.youtube-nocookie.com/embed/oscr5Srzelo
+      videoSrc: https://www.youtube.com/watch?v=URrhG6YPjos
 
-    - item:
+    - item: 62
+      description:
       title: YOU MADE IT!
       type: winner!
-      videoSrc: https://www.youtube-nocookie.com/embed/zSvnYVX8REw
+      videoSrc: https://youtu.be/watch?v=zSvnYVX8REw
