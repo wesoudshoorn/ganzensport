@@ -36,7 +36,7 @@
       description:
       title: Rol dobbelsteen opnieuw!
       type: lucky!
-      videoSrc: https://youtu.be/watch?v=9L-VhUmir-A
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
     - item: 7
       description:
@@ -54,7 +54,7 @@
       description:
       title: Één stap terug!
       type: unlucky!
-      videoSrc: https://youtu.be/watch?v=SXSavNCiV5A
+      videoSrc: https://www.youtube.com/watch?v=SXSavNCiV5A
 
     - item: 10
       description:
@@ -66,7 +66,7 @@
       description:
       title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://youtu.be/watch?v=C0UrgLM_snM
+      videoSrc: https://www.youtube.com/watch?v=C0UrgLM_snM
 
     - item: 12
       description:
@@ -131,7 +131,7 @@
       description:
       title: Rol dobbelsteen, even is 22 vooruit, oneven 22 achteruit!	lucky or
       type: unlucky?!
-      videoSrc: https://youtu.be/watch?v=Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
     - item: 23
       description:
@@ -185,13 +185,13 @@
       description:
       title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://youtu.be/watch?v=_FWK1Sp9J-s
+      videoSrc: https://www.youtube.com/watch?v=_FWK1Sp9J-s
 
     - item: 32
       description:
       title: Rol dobbelsteen nog een keer!
       type: lucky!
-      videoSrc: https://youtu.be/watch?v=9L-VhUmir-A
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
     - item: 33
       description:
@@ -238,13 +238,13 @@
       description:
       title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://youtu.be/watch?v=mWJfYkA5Jn4
+      videoSrc: https://www.youtube.com/watch?v=mWJfYkA5Jn4
 
     - item: 41
       description:
       title: 2x bal op racket achtje tussen benen door
       type: skill
-      videoSrc: https://youtu.be/watch?v=qX-RpkDimpg
+      videoSrc: https://youtu.be/HG9Q048eDvc
 
     - item: 42
       description:
@@ -274,8 +274,7 @@
       description:
       title: 30 sec sprinten op de plaats
       type: conditie
-      videoSrc: https://youtu.be/watch?v=sqq-R8eKwdg
-
+      videoSrc: https://www.youtube.com/watch?v=pXFWDVjmr00&feature=youtu.be
     - item: 47
       description:
       title: 10x fh-bh volley om & om
@@ -286,7 +285,7 @@
       description:
       title: 1 beurt overslaan!
       type: unlucky!
-      videoSrc: https://youtu.be/watch?v=Fjvx-YVg8VE
+      videoSrc: https://www.youtube.com/watch?v=qX-RpkDimpg
 
     - item: 49
       description:
@@ -311,7 +310,7 @@
       description:
       title: Geef iemand een uitdaging!
       type: challenge!
-      videoSrc: https://youtu.be/watch?v=g5sX2m0JhOE
+      videoSrc: https://www.youtube.com/watch?v=g5sX2m0JhOE
 
     - item: 53
       description:
@@ -341,7 +340,7 @@
       description:
       title: Rol dobbelsteen nogmaals!
       type: lucky!
-      videoSrc: https://youtu.be/watch?v=9L-VhUmir-A
+      videoSrc: https://www.youtube.com/watch?v=9L-VhUmir-A
 
     - item: 58
       description:
@@ -365,10 +364,4 @@
       description:
       title: Drie keer stuiter zijkant racket
       type: skill
-      videoSrc: https://youtu.be/watch?v=URrhG6YPjos
-
-    - item: 62
-      description:
-      title: YOU MADE IT!
-      type: winner!
-      videoSrc: https://youtu.be/watch?v=zSvnYVX8REw
+      videoSrc: https://youtu.be/oscr5Srzelo
